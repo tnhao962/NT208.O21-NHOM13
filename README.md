@@ -42,8 +42,11 @@ Website bán thực phẩm là một nền tảng trực tuyến giới thiệu 
 ## Phân Tích Thiết Kế Hệ Thống
 ### Sơ Đồ Chức Năng
 - **Sơ đồ use case:** Mô tả các chức năng của hệ thống quản lý cửa hàng bán thực phẩm.
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/ae74b279-60b1-4219-b6fd-940de050d004)
 - **Sơ đồ lớp:** Mô tả các lớp đối tượng trong hệ thống.
 - **Sơ đồ phân cấp chức năng:** Mô tả cách phân cấp các chức năng trong hệ thống.
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/f8411859-0e1b-4728-b5ea-c2bf4a841606)
+
 
 ## Giao Diện Chương Trình Ứng Dụng
 ### Bố Cục Trang Web
@@ -57,13 +60,17 @@ Website bán thực phẩm là một nền tảng trực tuyến giới thiệu 
 
 ### Thiết Kế Giao Diện
 - **Trang chủ:** Hiển thị sản phẩm và dịch vụ của cửa hàng.
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/217af7ef-265c-4c42-a8fe-5bcfef83cc2f)
 - **Trang sản phẩm:** Hiển thị các loại thực phẩm có trong cửa hàng.
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/5de5c47e-949d-4335-b976-8a777c62291f)
 - **Trang liên hệ:** Cho phép khách hàng liên hệ qua số điện thoại, địa chỉ, fanpage.
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/99c44d00-2fb9-40c7-8ea1-8aec31065a76)
 - **Trang đăng nhập:** Yêu cầu khách hàng đăng nhập để sử dụng dịch vụ.
 - **Trang đăng ký:** Cho phép khách hàng tạo tài khoản mới.
 - **Trang thực đơn:** Hiển thị các danh mục sản phẩm để khách hàng lựa chọn.
 - **Trang giỏ hàng:** Cho phép khách hàng xem và chỉnh sửa hóa đơn.
 - **Trang nhận xét:** Khách hàng có thể đưa ra ý kiến và đánh giá chất lượng sản phẩm.
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/2661af40-771b-4dcf-99ad-462ec11f21f2)
 
 ### Giao Diện Quản Lý Admin
 - **Trang chủ:** Quản lý thông tin tổng quan.
@@ -98,7 +105,3 @@ Hệ thống giúp việc mua bán trở nên dễ dàng, tiện lợi và nhanh
 - [123docz](https://123docz.net/document/2397349-do-a-n-to-t-nghie-p-xay-dung-website-ban-hang.htm)
 - [Mona Media](https://mona.media/thiet-ke-website-ban-thuc-an-nhanh)
 - [Toplist](https://toplist.vn/top-list/website-thuc-pham-hang-dau-viet-nam-hien-nay-9529.htm)
-
----
-
-Feel free to customize further as needed!
