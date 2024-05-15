@@ -2,7 +2,7 @@
             <ul>
                 <li><a href="#" style="font-size: 50px;padding-top: 20px;">
                     <span class="icon"></span>
-                    <span  class="title">HUYỀN</span>
+                    <span  class="title">ADMIN</span>
                 </a></li>
                 <li><a href="admin">
                     <span class="icon"><ion-icon name="home-outline"></ion-icon></span>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 05, 2023 lúc 02:47 PM
+-- Thời gian đã tạo: Th4 10, 2024 lúc 09:36 AM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.2.4
 
@@ -61,29 +61,11 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`id`, `hten`, `email`, `noidung`, `ngaycmt`) VALUES
-(7, 'huyen', 'huyenne@gmail.com', 'shop uy tín', '4/12/2023');
-
--- --------------------------------------------------------
-
---
--- Cấu trúc bảng cho bảng `ordertb`
---
-
-CREATE TABLE `ordertb` (
-  `id` int(11) NOT NULL,
-  `hten` varchar(50) NOT NULL,
-  `sdt` varchar(11) NOT NULL,
-  `sluong` int(11) NOT NULL,
-  `ngay` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Đang đổ dữ liệu cho bảng `ordertb`
---
-
-INSERT INTO `ordertb` (`id`, `hten`, `sdt`, `sluong`, `ngay`) VALUES
-(0, 'Nhan', '0901016787', 3, '2022-03-05 06:47:00'),
-(0, 'Hoang', '0901016787', 4, '2022-03-05 18:45:00');
+(14, 'Van Hao', 'vhao@gmail.com', 'Thuc an rat ngon va vua mieng', '5/4/2024'),
+(15, 'Nhat Hao', 'nhao@gmail.com', 'Mon an hop khau vi cua toi, huong vi tuyet voi', '5/4/2024'),
+(16, 'Duy Khang', 'dkhang@gmail.com', 'Gia ca hop ly, do an tuoi song va dam chat que huong', '5/4/2024'),
+(17, 'Thanh Hung', 'thung@gmail.com', 'Dong goi bao quan can than va giao hang nhanh, chi phi re ', '5/4/2024'),
+(18, 'Hoang Khang', 'hkhang@gmail.com', 'Khong gian thoang mat, sach se va view dep tuyet voi', '5/4/2024');
 
 -- --------------------------------------------------------
 
@@ -107,11 +89,22 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id_product`, `name_product`, `code_product`, `regular_price`, `mota`, `cate_id`, `thumbnail`, `date_product`) VALUES
-(61, 'Món ăn', 'SP01', '59000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 25, 'f11366925ead8740dac733b2a0b1912c.jpg', '2022-03-04'),
-(62, 'Món ăn 1', 'SP02', '59000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 25, 'f11366925ead8740dac733b2a0b1912c.jpg', '2022-03-04'),
-(63, 'Món ăn 3', 'SP03', '59000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 26, 'f11366925ead8740dac733b2a0b1912c.jpg', '2022-03-04'),
-(64, 'Món ăn 3', 'SP04', '59000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 27, 'f11366925ead8740dac733b2a0b1912c.jpg', '2022-03-04'),
-(65, 'Món ăn 5', 'SP05', '59000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 28, 'f11366925ead8740dac733b2a0b1912c.jpg', '2022-03-04');
+(71, 'Chả giò', 'SP01', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 25, 'fried-spring-rolls-cutting-board.jpg', '2023-12-29'),
+(72, 'Mực nướng', 'SP02', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 26, 'fried-squid-with-garlic_1339-83500.png', '2023-12-29'),
+(73, 'Xiên bẩn', 'SP03', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 27, 'pork-meatballs-dark-surface.jpg', '2023-12-29'),
+(74, 'Canh gà', 'SP04', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 28, 'stewed-chicken-feet-soup-served-with-spicy-fish-sauce_1150-27366.jpg', '2023-12-29'),
+(75, 'Chả giò', 'SP05', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 25, 'fried-spring-rolls-cutting-board.jpg', '2023-12-29'),
+(76, 'Cá nướng', 'SP06', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 26, 'canuong.jpg', '2024-04-10'),
+(77, 'Xiên bẩn', 'SP07', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 27, 'pork-meatballs-dark-surface.jpg', '2023-12-29'),
+(78, 'Canh gà', 'SP08', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 28, 'stewed-chicken-feet-soup-served-with-spicy-fish-sauce_1150-27366.jpg', '2023-12-29'),
+(79, 'Chả giò', 'SP09', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 25, 'fried-spring-rolls-cutting-board.jpg', '2023-12-29'),
+(80, 'Mực nướng', 'SP10', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 26, 'fried-squid-with-garlic_1339-83500.png', '2023-12-29'),
+(81, 'Xiên bẩn', 'SP11', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 27, 'pork-meatballs-dark-surface.jpg', '2023-12-29'),
+(82, 'Canh gà', 'SP12', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 28, 'stewed-chicken-feet-soup-served-with-spicy-fish-sauce_1150-27366.jpg', '2023-12-29'),
+(83, 'Chả giò', 'SP13', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 25, 'fried-spring-rolls-cutting-board.jpg', '2023-12-29'),
+(84, 'Mực nướng', 'SP14', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 26, 'fried-squid-with-garlic_1339-83500.png', '2023-12-29'),
+(85, 'Xiên bẩn', 'SP15', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 27, 'pork-meatballs-dark-surface.jpg', '2023-12-29'),
+(86, 'Canh gà', 'SP16', '59000', 'Món ăn tinh tế, hương vị độc đáo.', 28, 'stewed-chicken-feet-soup-served-with-spicy-fish-sauce_1150-27366.jpg', '2023-12-29');
 
 -- --------------------------------------------------------
 
@@ -132,7 +125,8 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id_admin`, `username`, `pwad`, `email`, `lever`) VALUES
-(1, 'huyen', 'e10adc3949ba59abbe56e057f20f883e', 'huyen@gmail.com', 0);
+(5, 'Admin', 'e67c10a4c8fbfc0c400e047bb9a056a1', 'admin@gmail.com', 0),
+(9, 'Nhân viên', '2a2fa4fe2fa737f129ef2d127b861b7e', 'nv@gmail.com', 1);
 
 -- --------------------------------------------------------
 
@@ -149,13 +143,6 @@ CREATE TABLE `tbl_cart` (
   `hinhanhsp` varchar(30) NOT NULL,
   `userName` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Đang đổ dữ liệu cho bảng `tbl_cart`
---
-
-INSERT INTO `tbl_cart` (`id_cart`, `id_product`, `tensp`, `soluong`, `dongia`, `hinhanhsp`, `userName`) VALUES
-(97, 61, 'Món ăn', 3, 59000, 'f11366925ead8740dac733b2a0b191', 'ngochuyen');
 
 -- --------------------------------------------------------
 
@@ -177,11 +164,8 @@ CREATE TABLE `tbl_order` (
 --
 
 INSERT INTO `tbl_order` (`id`, `ten`, `sdt`, `diachi`, `tong`, `tien`) VALUES
-(2, 'Nhan', '0901016787', 'asdfasdad', 1, 59000),
-(3, 'Nhan', '0901016787', 'asdasdada', 1, 59000),
-(4, 'Nhan', '0901016787', 'asdasdada', 1, 59000),
-(5, 'nh', '036654458', 'vl', 1, 59000),
-(6, 'ngochuyen', '0384163818', 'V?nh long', 1, 118000);
+(10, 'Van Hao', '0909090909', 'KTX B, TP.Thu Duc', 2, 295000),
+(11, 'Nhat Hao', '0808080808', 'KTX A, TP.Thu Duc', 2, 472000);
 
 -- --------------------------------------------------------
 
@@ -201,11 +185,7 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `username`, `pass`, `email_user`) VALUES
-(3, 'huyen', '123456', 'ngochuyen@gmail.com'),
-(8, 'Nhan', 'd169186c60e1448fc54c37127323b5d5', 'hoangnhan191120@gmail.com'),
-(9, 'Hoang', 'd169186c60e1448fc54c37127323b5d5', 'hoangnhan191120@gmail.com'),
-(10, 'nhuyen', 'e10adc3949ba59abbe56e057f20f883e', 'ht139944@gmail.com'),
-(11, 'ngochuyen', 'e10adc3949ba59abbe56e057f20f883e', 'huyenit200x@gmail.com');
+(18, 'nvhao2k2', 'e67c10a4c8fbfc0c400e047bb9a056a1', 'Admin@gmail.com');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -261,43 +241,43 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT cho bảng `category_product`
 --
 ALTER TABLE `category_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT cho bảng `comment`
 --
 ALTER TABLE `comment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT cho bảng `product`
 --
 ALTER TABLE `product`
-  MODIFY `id_product` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
+  MODIFY `id_product` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_cart`
 --
 ALTER TABLE `tbl_cart`
-  MODIFY `id_cart` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98;
+  MODIFY `id_cart` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_order`
 --
 ALTER TABLE `tbl_order`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

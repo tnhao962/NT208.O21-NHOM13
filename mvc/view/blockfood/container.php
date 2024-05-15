@@ -2,7 +2,7 @@
        <!-- banner -->
        <div class="banner">
     <div class="img">
-        <img src="public/img/img1.png" class="img-fluid" alt="">
+        <img src="public/img/img.png" class="img-fluid" alt="">
     </div>
 </div>
 <!-- search -->
@@ -46,7 +46,7 @@ san pham ban chay -->
                 <div class="item-wrapper align-center">
 
                     <div class="card-img">
-                        <img src="public\img\<?php echo $row['thumbnail']?>" alt="Mobirise">
+                        <img style="border-radius: 10px;" class="" src="public\img\<?php echo $row['thumbnail']?>" alt="Mobirise">
                     </div>
 
                     <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 254.99 483.96" class="product-shape-hover-img" src="http://demo.themewinter.com/wp/gloreya/wp-content/themes/gloreya/public/jquery/enu_shape_hover.svg" alt="Quarter Onion">
@@ -55,11 +55,7 @@ san pham ban chay -->
                     </svg>
 
                     <div class="card-box pt-4">
-
-
-
-
-                        <h4 class="card-title pb-3 mbr-bold mbr-fonts-style display-7"><?php echo $row['name_product']?></h4>
+                    <h4 class="card-title pb-3 mbr-bold mbr-fonts-style display-7"><?php echo $row['name_product']?></h4>
                         <p class="mbr-text mbr-semibold mbr-fonts-style display-4">
                         <?php
                             echo $row['mota']

@@ -22,8 +22,8 @@
             <div class="col-md-6 align-center col-lg-3">
                 <div class="item-content">
                     <h3 class="mbr-section-title pb-2 mbr-bold mbr-fonts-style display-7">Địa chỉ</h3>
-                    <p class="mbr-text pb-3 mbr-fonts-style display-4">Đường abc,
-                        <br>Phường 2, TP Vĩnh Long
+                    <p class="mbr-text pb-3 mbr-fonts-style display-4">Đường 123,
+                        <br>Khu phố 6, Phường Linh Trung, Thành phố Thủ Đức, Hồ Chí Minh
                         
                 </div>
 
@@ -35,7 +35,7 @@
                     <h3 class="mbr-section-title pb-2 mbr-bold mbr-fonts-style display-7">Liên hệ</h3>
                     <p class="mbr-text mbr-fonts-style display-4">Hãy gọi đên số
                     </p>
-                    <h4 class="phone mbr-bold pb-5 mbr-fonts-style display-7">0384163818</h4>
+                    <h4 class="phone mbr-bold pb-5 mbr-fonts-style display-7">0123456789</h4>
 
                 </div>
 
@@ -92,7 +92,7 @@
 
                 <div class="row-copirayt">
                     <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-left display-4">
-                        © Copyright 2019 Mobirise - All Rights Reserved
+                        © Copyright 2023 Mobirise - All Rights Reserved
                     </p>
                 </div>
             </div>
@@ -100,7 +100,7 @@
             <div class="col-lg-4">
                 <div class="row social-row">
                     <div class="social-list align-right">
-                        <a href="https://www.facebook.com/profile.php?id=100056746160832">
+                        <a href="https://www.facebook.com/4">
                         <ion-icon name="logo-facebook" style="
                         font-size: 40px;
                         color: rgb(37, 112, 250);
