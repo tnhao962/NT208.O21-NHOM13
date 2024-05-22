@@ -60,17 +60,17 @@ Website bán thực phẩm là một nền tảng trực tuyến giới thiệu 
 
 ### Thiết Kế Giao Diện
 - **Trang chủ:** Hiển thị sản phẩm và dịch vụ của cửa hàng.
-  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/217af7ef-265c-4c42-a8fe-5bcfef83cc2f)
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/1bbb6e7c-87d7-4aed-a2e3-745dc8ac3d55)
 - **Trang sản phẩm:** Hiển thị các loại thực phẩm có trong cửa hàng.
-  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/5de5c47e-949d-4335-b976-8a777c62291f)
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/06cab251-94dc-4107-9900-aaf9468c8724)
 - **Trang liên hệ:** Cho phép khách hàng liên hệ qua số điện thoại, địa chỉ, fanpage.
-  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/99c44d00-2fb9-40c7-8ea1-8aec31065a76)
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/a9737e72-afe7-4d0b-8c6a-bff7ea0b59c8)
 - **Trang đăng nhập:** Yêu cầu khách hàng đăng nhập để sử dụng dịch vụ.
 - **Trang đăng ký:** Cho phép khách hàng tạo tài khoản mới.
 - **Trang thực đơn:** Hiển thị các danh mục sản phẩm để khách hàng lựa chọn.
 - **Trang giỏ hàng:** Cho phép khách hàng xem và chỉnh sửa hóa đơn.
 - **Trang nhận xét:** Khách hàng có thể đưa ra ý kiến và đánh giá chất lượng sản phẩm.
-  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/2661af40-771b-4dcf-99ad-462ec11f21f2)
+  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/c63dceee-d715-4931-9594-be7e564c6eba)
 
 ### Giao Diện Quản Lý Admin
 - **Trang chủ:** Quản lý thông tin tổng quan.
