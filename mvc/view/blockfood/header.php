@@ -6,7 +6,7 @@
     }
     if($dx=='logout'){
         unset($_SESSION['username']);
-        header('location: http://localhost/banthucpham/home');
+        header('location: /banthucpham/');
     }
 ?>
   <section class="menu cid-rKYPNHqRuO" once="menu" id="menu1-l">

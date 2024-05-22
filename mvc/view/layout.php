@@ -3,7 +3,7 @@
 <html  >
 <head>
   <!-- Site made with Mobirise Website Builder v4.11.4, m -->
-  <base href="http://localhost/banthucpham/">
+  <base href="/banthucpham/">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.11.4, mobirise.com">
