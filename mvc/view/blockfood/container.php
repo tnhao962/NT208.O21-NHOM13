@@ -1,8 +1,8 @@
 
        <!-- banner -->
        <div class="banner">
-    <div class="img">
-        <img src="public/img/img.png" class="img-fluid" alt="">
+    <div class="w-100" style="max-height: 90vh;">
+        <img src="public/img/img.png" class="w-100" alt="">
     </div>
 </div>
 <!-- search -->
@@ -46,7 +46,7 @@ san pham ban chay -->
                 <div class="item-wrapper align-center">
 
                     <div class="card-img">
-                        <img style="border-radius: 10px;" class="" src="public\img\<?php echo $row['thumbnail']?>" alt="Mobirise">
+                        <img style="border-radius: 10px;" class="" src="public\img\foodimg\<?php echo $row['thumbnail']?>" alt="Mobirise">
                     </div>
 
                     <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 254.99 483.96" class="product-shape-hover-img" src="http://demo.themewinter.com/wp/gloreya/wp-content/themes/gloreya/public/jquery/enu_shape_hover.svg" alt="Quarter Onion">
@@ -81,7 +81,7 @@ san pham ban chay -->
 
 
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 container">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FcEVbVrNIyg?start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
   </div>
 
