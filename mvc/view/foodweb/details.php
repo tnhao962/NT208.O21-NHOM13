@@ -43,7 +43,7 @@
         <div class="row align-items-center" style="background: white;">
             <div class="col-12 col-md-6">
                 <div class="image-wrapper">
-                <img src="public\img\<?php echo $row['thumbnail']?>"  style="height: 100%;">
+                <img src="public\img\foodimg\<?php echo $row['thumbnail']?>"  style="height: 100%;">
                 </div>
             </div>
             <div class="col-12 col-md">

@@ -100,14 +100,14 @@
             <div class="col-lg-4">
                 <div class="row social-row">
                     <div class="social-list align-right">
-                        <a href="https://www.facebook.com/4">
+                        <a href="https://www.facebook.com/dungtran">
                         <ion-icon name="logo-facebook" style="
                         font-size: 40px;
                         color: rgb(37, 112, 250);
                         padding:  16px;
                         "></ion-icon>
                         </a>
-                        <a href="https://youtu.be/nJKuW2IN6jw">
+                        <a href="https://www.youtube.com/watch?v=Q4hiEZfv8Bw">
                         <ion-icon name="logo-youtube" 
                         style="
                         font-size: 40px;
