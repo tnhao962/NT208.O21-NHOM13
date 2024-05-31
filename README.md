@@ -25,7 +25,8 @@
 3. [Giao Diện Chương Trình Ứng Dụng](#giao-diện-chương-trình-ứng-dụng)
 4. [Kết Luận và Hướng Phát Triển](#kết-luận-và-hướng-phát-triển)
 5. [Tài Liệu Tham Khảo](#tài-liệu-tham-khảo)
-6. [Liên kết](#liên-kết)
+6. [Liên kết Website](#liên-kết-website)
+7. [Hướng Dẫn Cài Đặt](#hướng-dẫn-cài-đặt)
 
 ## Tìm Hiểu Về Đề Tài
 ### Định Nghĩa
@@ -63,13 +64,17 @@ Website bán thực phẩm là một nền tảng trực tuyến giới thiệu 
 - **Trang chủ:** Hiển thị sản phẩm và dịch vụ của cửa hàng.
   ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/1bbb6e7c-87d7-4aed-a2e3-745dc8ac3d55)
 - **Trang sản phẩm:** Hiển thị các loại thực phẩm có trong cửa hàng.
-  ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/06cab251-94dc-4107-9900-aaf9468c8724)
+  ![capture_240531_220204](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/f0370e03-01eb-4486-b98e-9ac16a5ba9a0)
 - **Trang liên hệ:** Cho phép khách hàng liên hệ qua số điện thoại, địa chỉ, fanpage.
   ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/a9737e72-afe7-4d0b-8c6a-bff7ea0b59c8)
 - **Trang đăng nhập:** Yêu cầu khách hàng đăng nhập để sử dụng dịch vụ.
+  ![capture_240531_220247](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/fe08fa87-5244-4349-aa80-1b40fec26365)
 - **Trang đăng ký:** Cho phép khách hàng tạo tài khoản mới.
+  ![capture_240531_220321](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/ed8068ff-3291-4688-87ca-9b90b02c82df)
 - **Trang thực đơn:** Hiển thị các danh mục sản phẩm để khách hàng lựa chọn.
+  ![capture_240531_220402](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/543aa2ff-ca36-49d8-87fd-d1e12295fe2a)
 - **Trang giỏ hàng:** Cho phép khách hàng xem và chỉnh sửa hóa đơn.
+  ![capture_240531_220505](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/c6dca040-1dab-48f7-80a4-b35e34b155c8)
 - **Trang nhận xét:** Khách hàng có thể đưa ra ý kiến và đánh giá chất lượng sản phẩm.
   ![image](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/c63dceee-d715-4931-9594-be7e564c6eba)
 
@@ -107,5 +112,23 @@ Hệ thống giúp việc mua bán trở nên dễ dàng, tiện lợi và nhanh
 - [Mona Media](https://mona.media/thiet-ke-website-ban-thuc-an-nhanh)
 - [Toplist](https://toplist.vn/top-list/website-thuc-pham-hang-dau-viet-nam-hien-nay-9529.htm)
 
-## Liên kết
+## Liên kết Website
 https://wefood.cazo-dev.net/
+
+## Hướng Dẫn Cài Đặt
+
+### Cài Đặt XAMPP
+
+1. Tải XAMPP từ trang web chính thức: [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
+2. Chạy file cài đặt và làm theo hướng dẫn để cài đặt XAMPP trên máy tính của bạn.
+3. Sau khi cài đặt hoàn tất, khởi động XAMPP Control Panel và start các module `Apache` và `MySQL`.
+
+### Tải Git và Clone Dự Án
+
+1. Tải Git từ trang web chính thức: [https://git-scm.com/](https://git-scm.com/).
+2. Cài đặt Git bằng cách chạy file cài đặt và làm theo hướng dẫn.
+3. Mở Git Bash (hoặc Command Prompt nếu bạn đã thêm Git vào PATH).
+4. Di chuyển đến thư mục `htdocs` của XAMPP:
+5. ```bash
+   git clone https://github.com/tnhao962/NT208.O21-NHOM13.git
+6. Truy cập http://localhost/NT208.O21-NHOM13
