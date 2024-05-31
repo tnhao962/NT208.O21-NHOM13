@@ -25,8 +25,9 @@
 3. [Giao Diện Chương Trình Ứng Dụng](#giao-diện-chương-trình-ứng-dụng)
 4. [Kết Luận và Hướng Phát Triển](#kết-luận-và-hướng-phát-triển)
 5. [Tài Liệu Tham Khảo](#tài-liệu-tham-khảo)
-6. [Liên kết Website](#liên-kết-website)
+6. [Domain deploy](#domain-deploy)
 7. [Hướng Dẫn Cài Đặt](#hướng-dẫn-cài-đặt)
+8. [Tiêu chí cộng điểm](#tiêu-chí-cộng-điểm)
 
 ## Tìm Hiểu Về Đề Tài
 ### Định Nghĩa
@@ -80,12 +81,19 @@ Website bán thực phẩm là một nền tảng trực tuyến giới thiệu 
 
 ### Giao Diện Quản Lý Admin
 - **Trang chủ:** Quản lý thông tin tổng quan.
+  ![c935ab89f06850360979](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/7d16eca8-18fc-40ed-b64e-911f076fc700)
 - **Quản lý danh mục:** Thêm, xóa, sửa thông tin các danh mục.
+  ![3263444e1eafbef1e7be](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/05dbebae-d09a-4934-b1bb-154b233e613e)
 - **Quản lý thực đơn:** Quản lý các sản phẩm trong cửa hàng.
+  ![350cd288886928377178](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/417f2c07-77c6-4ad5-9b20-8d43d14674b5)
 - **Quản lý đơn hàng:** Hiển thị và cập nhật trạng thái đơn hàng.
+  ![4b1e07cb432ae374ba3b](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/d546842d-0414-4e56-8cb7-3d1a703413e3)
 - **Quản lý khách hàng:** Xóa khách hàng khi cần thiết.
+  ![c194bbcdff2c5f72063d](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/c69983f4-691f-431d-9c2b-e11a0bb66b2f)
 - **Quản lý nhân viên:** Thêm hoặc xóa nhân viên.
+  ![6e30e167a68606d85f97](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/28860661-13d5-4faf-aa52-73362b9a5b37)
 - **Quản lý bình luận:** Xóa bình luận của người dùng nếu cần thiết.
+  ![d53adfff981e3840610f](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/4b9b0b05-487e-4a11-bae9-490a327ce604)
 
 ## Kết Luận và Hướng Phát Triển
 ### Kết Luận
@@ -112,7 +120,7 @@ Hệ thống giúp việc mua bán trở nên dễ dàng, tiện lợi và nhanh
 - [Mona Media](https://mona.media/thiet-ke-website-ban-thuc-an-nhanh)
 - [Toplist](https://toplist.vn/top-list/website-thuc-pham-hang-dau-viet-nam-hien-nay-9529.htm)
 
-## Liên kết Website
+## Domain deploy
 https://wefood.cazo-dev.net/
 
 ## Hướng Dẫn Cài Đặt
@@ -132,3 +140,7 @@ https://wefood.cazo-dev.net/
 5. ```bash
    git clone https://github.com/tnhao962/NT208.O21-NHOM13.git
 6. Truy cập http://localhost/NT208.O21-NHOM13
+
+## Tiêu chí cộng điểm
+![84c01ec4-938e-4533-861c-8cbacdde4dee](https://github.com/tnhao962/NT208.O21-NHOM13/assets/130902830/86459831-9973-48b9-9c2c-d700c852d7bc)
+
